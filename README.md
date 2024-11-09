@@ -4,23 +4,12 @@ This project implements a Long Short-Term Memory (LSTM) neural network to predic
 stock_predictor/
 │
 ├── data/
-│   ├── __init__.py
 │   └── data_loader.py
 │
-├── model/
-│   ├── __init__.py
+├── model
 │   └── lstm_model.py
-│
-├── models/
-│   └── .gitkeep
 │
 ├── requirements.txt
 ├── main.py
 └── README.md
 
-## Description
-
-- `data/`: Contains scripts for loading and processing data.
-- `lstm_model.py`: Contains the LSTM model architecture.
-- `main.py`: Main script to run the stock prediction.
-- `README.md`: This file.
