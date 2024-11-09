@@ -20,4 +20,16 @@ stock_predictor/
 - `requirements.txt`: Contains the required dependencies for the project.
 - `main.py`: Main script to run the stock prediction.
 - `README.md`: This file.
-
+## Features
+- Modular and object-oriented design
+- Data preprocessing and scaling
+- LSTM-based deep learning model
+- Early stopping to prevent overfitting
+- Model saving and loading capabilities
+- Comprehensive documentation
+# Requrements
+-Python 3.8+
+-TensorFlow 2.x
+-NumPy
+-Pandas
+-scikit-learn
