@@ -39,3 +39,28 @@ stock_predictor/
 cd stock-market-prediction](https://github.com/Seetha-2002/Stock-market-prediction)
 2. Install dependencies
    - pip install -r [requirements.txt](requirements.txt)
+# Usage
+1. Place your stock market data in CSV format in the dataloader.py directory
+2. Run the prediction model:
+   -[main.py](main.py)
+# Model Architecture
+The LSTM model consists of:
+
+- Input layer with 60 time steps
+- First LSTM layer with 50 units and return sequences
+- Dropout layer (20%)
+- Second LSTM layer with 50 units
+- Dropout layer (20%)
+- Dense output layer
+# Data Preprocessing
+
+- Data is normalized using MinMaxScaler
+- Sequences of 60 time steps are used for prediction
+- Data is split into training and testing sets (80/20)
+
+# Results
+The model's performance can be evaluated using:
+
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- Visualization of predicted vs actual values
