@@ -35,3 +35,7 @@ stock_predictor/
 - scikit-learn
 # Installation
 1. clone the Repository
+   - git clone https://github.com/yourusername/stock-market-prediction.git
+cd stock-market-prediction
+2. Install dependencies
+   - pip install -r requirements.txt
