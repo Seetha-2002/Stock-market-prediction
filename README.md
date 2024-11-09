@@ -28,8 +28,10 @@ stock_predictor/
 - Model saving and loading capabilities
 - Comprehensive documentation
 # Requrements
--Python 3.8+
--TensorFlow 2.x
--NumPy
--Pandas
--scikit-learn
+- Python 3.8+
+- TensorFlow 2.x
+- NumPy
+- Pandas
+- scikit-learn
+# Installation
+1. clone the Repository
