@@ -17,3 +17,10 @@ stock_predictor/
 ├── requirements.txt
 ├── main.py
 └── README.md
+
+## Description
+
+- `data/`: Contains scripts for loading and processing data.
+- `lstm_model.py`: Contains the LSTM model architecture.
+- `main.py`: Main script to run the stock prediction.
+- `README.md`: This file.
